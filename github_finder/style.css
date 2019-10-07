@@ -1,0 +1,119 @@
+/*Profile card 2*/
+.profile-card .card-img-block{
+    background-image: linear-gradient(to right bottom, rgba(0,72,94,0.9), #ff1053), url("https://images.pexels.com/photos/870903/pexels-photo-870903.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background-position: center;
+    background-size: cover;
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+/* #00b7ef */
+.profile-card .card-body{
+    position:relative;
+}
+
+.profile-card .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -42px;
+  left: 15%;
+  max-width: 75px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card h3{
+    font-weight:600;
+    color:#fff;
+    text-align: center;
+}
+.profile-card .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card .profile-footer{
+  text-align: center;
+  margin: 0 -10px;
+  padding-top: 5px;
+
+  color: #555;
+}
+.pf{
+    border-left: 1px solid #ddd;
+}
+.pf-left {
+  border-left: none;
+}
+.footer{
+  border-top: 1px solid #ddd;
+  margin-bottom: -20px;
+}
+.view{
+  background-image: linear-gradient(to right bottom, #ff1053, rgba(0,72,94,0.9));
+}
+.view button{
+  color: white;
+}
+.icons i {
+  background: linear-gradient(to right bottom, rgba(0,72,94,0.9), #ff1053);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 15px;
+    padding: 5px;
+    margin:0 5px;
+}
+
+.profile-card .icons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.icons a,
+.icons span{
+  color:#777;
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.profile-username{
+  position: absolute;
+  top: 5px;
+  left: 105px;
+}
+
+ .dates{
+  font-size: 13px;
+  color: black;
+  margin-top: -13px;
+  margin-left: 23px;
+}
+.profile-footer h6{
+  font-weight: 600;
+}
+.repo-card .heading{
+  background: linear-gradient(to right bottom, rgba(0,72,94,0.9), #ff1053);
+  padding: 7px;
+  color: #fff;
+}
+.repo-card .clone{
+  text-align: right;
+}
+.repo-card .badges{
+  margin-top: -15px;
+}
+.cloneBtn{
+  background: linear-gradient(to right bottom, rgba(0,72,94,0.9), #ff1053);
+  border-color: transparent;
+}
+
+.boldSpan{
+  font-weight: 600;
+  color: #000;
+}
+.no-repo{
+  font-size: 20px;
+  color: #444;
+}
